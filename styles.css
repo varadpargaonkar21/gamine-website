@@ -1,0 +1,215 @@
+#img {
+
+    background-image: url(https://businessconnectindia.in/wp-content/uploads/2021/05/PC-games.jpg);
+    height: 500px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 230px;
+    justify-content: center;
+    
+    
+
+}
+
+#s1g1 {
+
+    background-image: url(https://m.media-amazon.com/images/I/91sGvkrMZmL._SX385_.jpg);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#s1g2 {
+
+    background-image: url(https://m.media-amazon.com/images/I/81Y37RvvNWL._SL1500_.jpg);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#s1g3 {
+
+    background-image: url(https://i.gadgets360cdn.com/products/large/EGS-MarvelsSpiderManRemastered-InsomniacGamesNixxesSoftware-S2-1200x1600-76424286902489f4d9639ac9b735c2b2-1000x1333-1660114686.jpeg);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#s1g4 {
+
+    background-image: url(https://m.media-amazon.com/images/I/819o5Bt4u9L._SL1500_.jpg);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#s1g5 {
+
+    background-image: url(https://m.media-amazon.com/images/I/81fL1Y0OgpL._SL1500_.jpg);
+    height: 170px;
+    width:140px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#s2g1 {
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/6/62/Amnesia-The-Dark-Descent-Cover-Art.png);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#s2g2 {
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/ba/Amnesiaamachineforpigscoverart.jpg);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#s2g3 {
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/3/3d/Amnesia_Rebirth_cover_art.jpg);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#s2g4 {
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Penumbra-win-cover.jpg/220px-Penumbra-win-cover.jpg);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#s2g5 {
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/0/03/Penumbra_Requiem.jpg);
+    height: 170px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flex-row {
+
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    border: solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    border-radius: 5%;
+    flex-wrap: wrap;
+
+}
+
+
+.flex-column {
+
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color:cornflowerblue;
+    border-radius: 5%;
+    flex-wrap: wrap;
+
+}
+
+
+.text-information > h1 {
+
+    color: blue;
+    
+}
+
+.text-information > p {
+
+    color: darkblue;
+}
+
+.text-information {
+
+    text-align: center;
+}
+
+button {
+
+    background-color: chartreuse;
+    color: blue;
+    margin-left: 10px;
+
+}
+
+button:hover {
+
+    color:chartreuse;
+    background-color: blue;
+    cursor: pointer;
+}
+
+button:focus {
+
+    color: yellow;
+    background-color:tomato;
+}
+
+.container {
+
+    background-color: violet;
+    flex-wrap: wrap;
+    border: solid black;
+    padding: 2px;
+    margin: 2px;
+}
+
+body {
+
+    background-color: pink;
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:100px) {
+
+    .flex-row {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
